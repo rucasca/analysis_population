@@ -1,0 +1,7 @@
+- Enlace al repositorio de GitHub:
+
+https://github.com/nican2/ProyectoAED2023.git
+
+- Debido a que los repositorios de GitHub tienen un límite de espacio en la versión gratuita, no ha sido posible almacenar la totalidad del dataset en la carpeta data del repositorio. Es por ello que, para que el código se pueda ejecutar y disponer de la totalidad del dataset deben añadirse los dos archivos del siguiente enlace a la carpeta ./data
+
+https://drive.google.com/drive/folders/10OrCjKJ-OmBtPISjxzsMlSpztqp-4fZu?usp=drive_link

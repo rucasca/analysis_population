@@ -1,0 +1,54 @@
+#########################################################################################################################			
+INSTITUTO NACIONAL DE ESTADÍSTICA	www.ine.es		
+			
+FICHEROS DE MICRODATOS			
+	ENCUESTA SOBRE CARACTERISTICAS ESENCIALES DE LA POBLACIÓN Y VIVIENDA (ECEPOV)
+	AÑO 2021		
+############################################################			
+
+Esta operación estadística consta de tres ficheros:
+
+	- Cuestionarios Individuales de Adultos (ECEPOVadultos), 
+		* Un Registro por cada residente adulto (16 años o más) en el hogar entrevistado
+	- Cuestionarios Individuales de Hogar (ECEPOVhogar),   
+		* Un Registro por cada residente en el hogar entrevistado
+	- Cuestionarios Individuales de Vivienda (ECEPOVvivienda),  
+		* Un Registro por cada vivienda entrevistada
+
+
+############################################################			
+Cada fichero contiene:			
+						
+1- El fichero de microdatos en formato txt, ancho fijo ("md_ECEPOVnombreFichero_2021.txt"). 
+   La longitud de cada variable se puede consultar en el diseño de registro que aparece 
+   en la carpeta raíz "dr_ECEPOVnombreFichero_2021.xlsx")
+ 
+ 2- Cinco directorios: CSV, R, SAS, SPSS, STATA			
+			
+Contenido de los directorios:			
+			
+1- El directorio CSV contiene:			
+	a) El fichero de microdatos en formato CSV, separado por TABULACIÓN ("ECEPOVnombreFichero_2021.csv")		
+			
+2- El directorio R contiene:			
+	a) El fichero de microdatos en formato RData ("ECEPOVnombreFichero_2021.RData")		
+				
+3- El directorio SAS contiene:			
+	a) Fichero de microdatos en formato SAS, con los datos codificados (es decir,		
+	   las variables cualitativas son un código numérico, por ejemplo '40' en lugar		
+	   de 'Segovia') ("ECEPOVnombreFichero_2021.sas7bdat")		
+	b) Programa SAS con las sentencias para dar formato a las variables del fichero		
+	   de microdatos anterior ("ECEPOVnombreFichero_2021_conFormato.sas")		
+			
+4- El directorio SPSS contiene:			
+	a) Fichero de microdatos en formato SPSS, con los diccionarios de las variables		
+	   integrados ("ECEPOVnombreFichero_2021.sav")		
+	   		
+5- El directorio STATA contiene:			
+	a) Fichero de microdatos en formato STATA, sin los diccionarios de las variables		
+	   integrados ("ECEPOVnombreFichero_2021.dta"). Las etiquetas, las variables y los 
+	   valores pueden consultarse en el diseño de registro "dr_ECEPOVnombreFichero_2021.xlsx" que
+	   aparece en la carpeta raíz.		
+	   		
+			
+#########################################################################################################################			
