@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Proyecto ne R donde se utilizan técnicas avanzadas de visualización de datos, haciendo uso de `ggplot` para la obtención de las mismas. Se presenta un preprocesado de los datos, que permite corregir fallos, categorizar y codificar las variables consideradas.
+Proyecto en R donde se utilizan técnicas avanzadas de visualización de datos, haciendo uso de `ggplot` para la obtención de las mismas. Se presenta un preprocesado de los datos que permite corregir fallos, imputar datos, categorizar y codificar las variables consideradas.
 
 Además, se hace uso de técnicas de detección de outliers, como el computo de distancias de Cook o la utilización de modelos de clustering
 
